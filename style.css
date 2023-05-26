@@ -1,0 +1,197 @@
+body{
+  font-family: arial;
+  background-image: linear-gradient(to right top, #ff4988, #ffc781, #fffefc);
+}
+#phai{
+      background-image: linear-gradient(to right top, mediumseagreen, springgreen, lawngreen  );
+      background-color: lightgray;
+      width: 25%;
+      height: 530px;
+      float: right;
+      text-align: left;
+      margin-bottom: 20px;
+      border: 5px outset #30e83d;
+      border-top-right-radius: 25% ; 
+    }
+#trai{
+      background-image: linear-gradient(to right top, goldenrod, bisque, cornsilk);
+      background-color: lightgray;
+      width: 36%;
+      height: 360px;
+      float: left;
+      margin-bottom: 20px;
+      border-radius:10%;
+      padding-top: 5%;
+      border: 5px dashed white;
+      }
+#trai img{
+      border-radius:10%;
+      padding-bottom: 55px;
+      }
+#giua{
+      background-image: linear-gradient(to right top, mediumvioletred, deeppink, pink);
+      background-color: lightgray;
+      border: 7px dotted white;
+      width: 35%;
+      height: 390px;
+      float: left;
+      margin-left: 20px;
+      border-top-left-radius: 25%; 
+      border-bottom-right-radius: 25% ; 
+      text-align: center;
+      padding-top: 10px;
+}
+#giuainfo
+{
+      text-align: left;
+      padding-left: 80px;
+      padding-top: 25px;
+}
+#duoi{
+  padding-top: 2%;
+  background-image: linear-gradient(to right top, black, gray, gainsboro);
+  width: 72%;
+  height: 850px;
+  float: left;
+  text-align: center;
+  border-radius:10%;
+  margin-top: 10px;
+  margin-bottom: 100px; 
+  border: 5px double #adf820;
+}
+#duoi video{
+  border-radius: 10%;
+}
+#duoiphai{
+  background-image: linear-gradient(to right top, teal, red);
+  background-color: darkgray;
+  width: 25%;
+  height: 600px;
+  float: right;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius:10%;
+  margin-bottom: 100px;
+  border: 5px double #33c8e6;
+}
+#duoiphai p{
+  font-weight: bold;
+  font-size: 15px;
+  color: aquamarine;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+#footer a {
+  text-decoration: none;
+  color: red;
+  display: block;
+}
+#footer a:hover {
+  background: black  ;
+  color: orange;
+}
+header div ul li {
+  color: red;
+  display: inline-block;
+  width: 5%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 8%;
+  text-align: center;
+}
+header div a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top-left-radius: 25px; 
+  border-bottom-right-radius: 25px; 
+
+}
+header div a:hover {
+  border-top-left-radius: 35px; 
+  border-bottom-right-radius: 35px; 
+  background-image: linear-gradient(to right top, darkred, pink  );
+  color: orange;
+}
+header div ul {
+  padding: 1px;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-top-left-radius: 70px;   
+}
+.imgzoomkhung{
+  overflow: hidden;
+}
+.imgzoom:hover{
+  transform: scale(1.6);
+  transition: all 3s;
+}
+header{
+  background-image: linear-gradient(to right top, blue, white  );
+  padding-top: 0.5%;
+  height: 194px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+header img{
+  padding-left: 50px;
+}
+.img-goiy{
+  border: 2px outset #62d94a;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 25%; 
+  border-bottom-right-radius: 25% ; 
+  height: 20%;
+}
+.img-goiy:hover{
+  border: 2px inset #62d94a;
+  width: 38%;
+  border-top-left-radius: 25%; 
+  border-bottom-right-radius: 25% ; 
+}
+.tieudephim
+{
+  width: 40%;
+  float: right;
+  text-align: left;
+  margin-right: 63px;
+}
+.luotxemphim
+{
+  width: 40%;
+  float: right;
+  text-align: left;
+  margin-right: 63px;
+  padding-bottom: 10.5px;
+  border-bottom: 2px dashed #bd7f94;
+}
+#xemphim a {
+  font-size: 40px;
+  border: 3px outset #b1154a;
+  border-radius: 2%; 
+  text-decoration: none;
+  color: White;
+
+}
+#xemphim a:hover {
+  font-size: 39px;
+  border-radius: 2%;
+  border: 3px inset #b1154a;
+  background-image: linear-gradient(to right top, goldenrod, bisque, cornsilk);
+}
